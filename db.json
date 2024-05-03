@@ -1,9 +1,65 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}
+    "teachers": [
+      {
+        "id": 1,
+        "fullName": "Elnur Xelilov",
+        "username": "elnurxo",
+        "email": "elnurxelilov@gmail.com",
+        "password": "elnur123E",
+        "major": "history",
+        "profileImage": "https://avatars.githubusercontent.com/u/87971131?v=4"
+      },
+      {
+        "id": 2,
+        "fullName": "Gulsen Zalova",
+        "username": "gulsenzov",
+        "email": "gulsenzalova@gmail.com",
+        "password": "gulsen123G",
+        "major": "programming",
+        "profileImage": "https://avatars.githubusercontent.com/u/95272056?v=4"
+      }
+    ],
+    "students": [
+      {
+        "id": 1,
+        "fullName": "Lachin Abbasov",
+        "username": "lachin41",
+        "email": "lacin2002@gmail.com",
+        "password": "lacin123L",
+        "grades": [],
+        "profileImage": "https://avatars.githubusercontent.com/u/161557615?s=400&u=499c0e31027ff034ef1b4c967d773b21574aef5e&v=4"
+      },
+      {
+        "id": 2,
+        "fullName": "Orxan Kerimov",
+        "username": "orxanko",
+        "email": "kerimovo@gmail.com",
+        "password": "orxan123O",
+        "grades": [],
+        "profileImage": "https://avatars.githubusercontent.com/u/136202877?v=4"
+      }
+    ],
+    "tasks": [
+      {
+        "id": 1,
+        "title": "React Project",
+        "description": "Create a React project with CRUD functionality.",
+        "topic": "React",
+        "deadline": "2024-05-31",
+        "createdAt": "2024-05-01T08:00:00.000Z",
+        "teacherId": 1,
+        "assignments": []
+      },
+      {
+        "id": 2,
+        "title": "HTML Assignment",
+        "description": "Build a simple webpage using HTML and CSS.",
+        "topic": "HTML",
+        "deadline": "2024-06-15",
+        "createdAt": "2024-05-02T10:00:00.000Z",
+        "teacherId": 2,
+        "assignments": []
+      }
+    ]
+  }
+  
