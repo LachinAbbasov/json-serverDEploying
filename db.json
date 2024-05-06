@@ -1,64 +1,28 @@
 {
-    "teachers": [
+    "countries": [
       {
         "id": 1,
-        "fullName": "Elnur Xelilov",
-        "username": "elnurxo",
-        "email": "elnurxelilov@gmail.com",
-        "password": "elnur123E",
-        "major": "history",
-        "profileImage": "https://avatars.githubusercontent.com/u/87971131?v=4"
+        "name": "Azerbaijan",
+        "population": 10139177,
+        "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/2560px-Flag_of_Azerbaijan.svg.png",
+        "capital": "Baku",
+        "description": "Azerbaijan, officially the Republic of Azerbaijan, is a country located at the boundary of Eastern Europe and Western Asia."
       },
       {
         "id": 2,
-        "fullName": "Gulsen Zalova",
-        "username": "gulsenzov",
-        "email": "gulsenzalova@gmail.com",
-        "password": "gulsen123G",
-        "major": "programming",
-        "profileImage": "https://avatars.githubusercontent.com/u/95272056?v=4"
-      }
-    ],
-    "students": [
-      {
-        "id": 1,
-        "fullName": "Lachin Abbasov",
-        "username": "lachin41",
-        "email": "lacin2002@gmail.com",
-        "password": "lacin123L",
-        "grades": [],
-        "profileImage": "https://avatars.githubusercontent.com/u/161557615?s=400&u=499c0e31027ff034ef1b4c967d773b21574aef5e&v=4"
+        "name": "Turkey",
+        "population": 83154997,
+        "flagImg": "https://upload.wikimedia.org/wikipedia/commons/8/87/Flag_of_Turkey.png",
+        "capital": "Ankara",
+        "description": "Turkey is a transcontinental country located mainly on the Anatolian Peninsula in Western Asia, with a smaller portion on the Balkans in Southeast Europe."
       },
       {
-        "id": 2,
-        "fullName": "Orxan Kerimov",
-        "username": "orxanko",
-        "email": "kerimovo@gmail.com",
-        "password": "orxan123O",
-        "grades": [],
-        "profileImage": "https://avatars.githubusercontent.com/u/136202877?v=4"
-      }
-    ],
-    "tasks": [
-      {
-        "id": 1,
-        "title": "React Project",
-        "description": "Create a React project with CRUD functionality.",
-        "topic": "React",
-        "deadline": "2024-05-31",
-        "createdAt": "2024-05-01T08:00:00.000Z",
-        "teacherId": 1,
-        "assignments": []
-      },
-      {
-        "id": 2,
-        "title": "HTML Assignment",
-        "description": "Build a simple webpage using HTML and CSS.",
-        "topic": "HTML",
-        "deadline": "2024-06-15",
-        "createdAt": "2024-05-02T10:00:00.000Z",
-        "teacherId": 2,
-        "assignments": []
+        "id": 3,
+        "name": "Turkmenistan",
+        "population": 6031187,
+        "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/1280px-Flag_of_Turkmenistan.svg.png",
+        "capital": "Ashgabat",
+        "description": "Turkmenistan is a country in Central Asia, bordered by Kazakhstan to the northwest, Uzbekistan to the north and east, Afghanistan to the southeast, Iran to the south and southwest, and the Caspian Sea to the west."
       }
     ]
   }
